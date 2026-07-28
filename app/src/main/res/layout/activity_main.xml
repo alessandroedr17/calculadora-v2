@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora de Ganhos"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btnPermissaoTela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Permitir Sobreposição"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnPermissaoLeitura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Ativar Leitura de Tela"/>
+
+</LinearLayout>
